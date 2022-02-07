@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--Font Awesome-->
+
+    <!--Google font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <!--Google font-->
+
+    <!--Bootstrap-->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!--Bootstrap-->
+
+    <!--style css-->
+    <link rel="stylesheet" href="./css/style.css">
+    <!--Style css-->
+    
+    <title>Página de inicio</title>
+</head>
+<body>
+    <div id="container" class="container row min-vh-100 min-vw-100 justify-content-center align-items-center">
+        <div class="containe row w-75 bg-dark py-5 rounded-3">
+        <!--imagen login-->
+            <div class="col bg-login mx-2 d-none d-md-block"></div>   
+            
+            <div class="container col col-md-8 mx-0 bg-dark text-light">
+                <!--Start Form-->
+                <h1 class="text-center mb-4">LOGIN</h1>
+                <form class="d-flex flex-column align-items-center flex-row" action="./principal.html">
+        
+                    <span class="text-center mb-3 text-secondary">Introduzca su Email y Contraseña</span>
+            
+                    <div class="form-group w-75 mb-3">
+                        <input type="email" class="form-control bg-dark border border-primary rounded-pill text-light" id="email" placeholder="Correo Electrónico">
+                    </div>
+            
+                    <div class="form-group w-75 mb-3">
+                        <input type="password" class="form-control bg-dark border border-primary rounded-pill text-light" id="password" placeholder="Contraseña">
+                    </div>
+            
+                    <div class="form-check mb-3">
+                        <input type="checkbox" name="connected" class="form-check-input">
+                        <label for="connected" class="form-check-label text-secondary">Mantenerme conectado</label>
+                    </div>
+            
+                    <button class="btn bg-dark text-light border border-success rounded-pill mb-3">Iniciar Sesión</button>
+            
+                    <div class="d-flex flex-wrap w-100 justify-content-center mb-3">
+                        <span><a class="text-secondary mx-3" href="#">Regístrate</a></span>
+                        <span><a class="text-secondary" href="#">Recuperar Contraseña</a></span>
+                    </div>
+            
+                    <div class="redes-sociales d-flex justify-content-around w-50">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-google-plus"></i>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
